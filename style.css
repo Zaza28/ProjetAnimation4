@@ -263,29 +263,30 @@ body {
   
   .animation-coeur:hover .fa{
   opacity: 1;
+  transition: 0s;
   }
-  
-  
+ 
+
+
   .animation-coeur:hover .fa-regular{
   opacity: 0;  
+  transition: 0s;
   }
-  
-  
-  
+
+
+
   .animation-coeur .fa-regular {
     position: absolute;
     left: 16px;
     opacity: 1;
-    transition: all 3s ease;
+    transition: 0s 180s;
   }
-  
-  
   
   .animation-coeur .fa {
     position: absolute;
     left: 16px;
     opacity: 0;
-    transition: all 3s ease;
+    transition: 0s 180s;
   background: -webkit-linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -384,9 +385,6 @@ body {
   
   }
   
-  
-  
-  
   .restaurant-titre-menu {
     margin: 0;
     font-family: Shrikhand, serif;
@@ -412,15 +410,9 @@ body {
   
   }
   
-  /* 
-  .menu-listes {
-    padding: 10px;
-  } */
-  
-  
   .menu-cards {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
@@ -430,13 +422,9 @@ body {
   }
   
   .menu-cards:hover .button-check{
-    /* border-right-width: 15px; */
     width: 60px;
   
   }
-  
-  
-  
   
   .card-menu-texte {
     display: flex;
@@ -444,7 +432,6 @@ body {
     justify-content: space-between;
     width: 100%;
   align-items: center;
-  
   }
   
   h3 {
@@ -474,32 +461,18 @@ body {
     width: 0px;
     overflow: hidden;
     transition: width 3s;
-    /* position: relative;
-    top: -54px;
-    right: -15px; */
-  
+
   }
   
   .button-check-carte-menu {
-  
     background-color: #99E2D0;
     border: none;
     color: white;
     width: 85%;
     border-radius: 0px 15px 15px 0px;
     padding: 25px;
-    /* visibility: hidden; */
   
   }
-  
-  /* .button-check-carte-menu:active{
-    visibility:visible;
-  }
-  
-  .button-check-carte-menu:hover{
-    visibility: visible;
-  } */
-  
   
   .button-de-menu {
     background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
