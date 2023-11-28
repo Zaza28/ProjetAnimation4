@@ -384,12 +384,21 @@ ul {
   position: relative;
 
 }
+.header-pages-restaurants{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 25px;
+padding-right: 5px;
+margin: 0;
+
+}
 
 .restaurant-titre-menu {
   margin: 0;
   font-family: Shrikhand, serif;
   font-weight: lighter;
-  padding: 20px 10px;
+  padding: 0px;
 }
 
 .titres-menu {
@@ -410,16 +419,29 @@ hr {
 
 }
 
-.menu-cards {
+.menu-listes{
   display: flex;
-  flex-direction: column;
+flex-direction: column;
+
+}
+
+.menu-cards {
+  display: flex;  
+  flex-direction: row;
+
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   padding: 0px;
-  justify-content: space-between;
 }
+
+.cards-menu-content{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .menu-cards:hover .button-check {
   width: 60px;
@@ -429,15 +451,18 @@ hr {
 .card-menu-texte {
   display: flex;
   margin: 10px;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
+  flex-wrap: wrap;
+align-self:stretch;
+justify-content: space-around;
 }
 
 h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   padding-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 
@@ -445,33 +470,44 @@ h3 {
   margin: 0;
   font-size: 13px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 
 }
 
 .menu-prix {
   margin: 0;
   font-weight: bold;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+justify-content: flex-end;
+color: #353535;
+font-size: 13px;
+padding-right: 10px;
 }
 
 .button-check {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 0px;
   overflow: hidden;
   transition: width 3s;
+  background-color: #99E2D0;
+color: white;
+justify-content: center;
+padding-top: 30px;
 
 }
 
 .button-check-carte-menu {
-  background-color: #99E2D0;
   border: none;
-  color: white;
-  width: 85%;
+  width: 80%;
   border-radius: 0px 15px 15px 0px;
   padding: 25px;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .button-de-menu {
