@@ -322,7 +322,6 @@ input {
   background: var(--Grey, #353535);
   padding: 22px 25px;
   display: flex;
-  margin-top: -40px;
 }
 
 .footer-informations {
