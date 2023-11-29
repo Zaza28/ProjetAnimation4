@@ -449,6 +449,9 @@ flex-direction: column;
 
 .menu-cards:hover .button-check {
   width: 70px;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
 }
 
 
@@ -462,23 +465,17 @@ h3 {
 .menu-accompagnement {
   margin: 0;
   font-size: 13px;
-  text-overflow: ellipsis;
-  overflow: hidden; 
-  white-space: nowrap;
-
 }
-
 
 .menu-prix {
   margin: 0;
   font-weight: bold;
 color: #353535;
 font-size: 13px;
-padding-right: 10px;
 justify-content: flex-end;
 display: flex;
-
 }
+
 
 .button-check {
   display: flex;
