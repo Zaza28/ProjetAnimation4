@@ -382,6 +382,7 @@ ul {
   gap: 20px;
   top: -40px;
   position: relative;
+  padding: 12px;
 
 }
 .header-pages-restaurants{
@@ -404,7 +405,7 @@ margin: 0;
 .titres-menu {
   font-family: Roboto, sans-serif;
   font-weight: lighter;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 0px;
   margin: 0;
   font-size: 17px;
 }
@@ -428,87 +429,77 @@ flex-direction: column;
 .menu-cards {
   display: flex;  
   flex-direction: row;
-
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
   margin-bottom: 14px;
   padding: 0px;
+  width: 100%;
+
 }
 
 .cards-menu-content{
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
+  padding: 12px;
+  height: fit-content;
+  width: 100%;
+  
 }
 
 
 .menu-cards:hover .button-check {
-  width: 60px;
+  width: 70px;
 
 }
 
-.card-menu-texte {
-  display: flex;
-  margin: 10px;
-  flex-wrap: wrap;
-align-self:stretch;
-justify-content: space-around;
-}
+/* .card-menu-texte {
+
+} */
 
 h3 {
   margin: 0;
   font-size: 15px;
-  padding-bottom: 4px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
 }
 
 
 .menu-accompagnement {
   margin: 0;
   font-size: 13px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-
 }
 
 .menu-prix {
   margin: 0;
   font-weight: bold;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 justify-content: flex-end;
 color: #353535;
 font-size: 13px;
 padding-right: 10px;
+
 }
 
 .button-check {
   display: flex;
   flex-direction: row;
-  width: 0px;
+  width: 0;
   overflow: hidden;
   transition: width 3s;
   background-color: #99E2D0;
 color: white;
 justify-content: center;
 padding-top: 30px;
-
+border-radius: 0px 15px 15px 0px;
 }
 
-.button-check-carte-menu {
+.fa-circle-check{
   border: none;
-  width: 80%;
   border-radius: 0px 15px 15px 0px;
-  padding: 25px;
   display: flex;
   flex-direction: row;
+width: 15px;
+
 }
+
 
 .button-de-menu {
   background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
