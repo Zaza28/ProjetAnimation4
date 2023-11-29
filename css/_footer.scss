@@ -1,0 +1,58 @@
+.footer {
+    background: var(--Grey, #353535);
+    padding: 22px 25px;
+    display: flex;
+
+    .footer-informations {
+        align-items: flex-start;
+
+        .footer-title {
+            color: white;
+            font-family: Shrikhand, serif;
+            font-size: larger;
+            margin: 0;
+            font-weight: lighter;
+        }
+
+
+        .footer-listes li {
+            list-style-type: none;
+            font-size: 13px;
+
+
+
+        }
+
+
+        ul {
+            padding: 0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+
+
+            .fa-utensils {
+                color: white;
+                width: 0;
+                padding-right: 25px;
+            }
+
+            .fa-handshake-angle {
+                color: white;
+                width: 0;
+                padding-right: 25px;
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+}

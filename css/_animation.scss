@@ -1,0 +1,44 @@
+/**********animation coeur *********/
+
+
+.animation-coeur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 30px;
+
+
+    .animation-coeur .fa-regular {
+        position: absolute;
+        left: 16px;
+        opacity: 1;
+        transition: 0s 180s;
+
+        :hover .fa-regular {
+            opacity: 0;
+            transition: 0s;
+        }
+
+
+
+    }
+
+    .animation-coeur .fa {
+        position: absolute;
+        left: 16px;
+        opacity: 0;
+        transition: 0s 180s;
+        background: -webkit-linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        :hover .fa {
+            opacity: 1;
+            transition: 0s;
+        }
+
+    }
+
+}
