@@ -435,46 +435,48 @@ flex-direction: column;
   margin-bottom: 14px;
   padding: 0px;
   width: 100%;
-
+  
 }
 
 .cards-menu-content{
   padding: 12px;
-  height: fit-content;
   width: 100%;
-  
+  gap: 5px;
+  align-items: flex-end;
 }
+
 
 
 .menu-cards:hover .button-check {
   width: 70px;
-
 }
 
-/* .card-menu-texte {
-
-} */
 
 h3 {
   margin: 0;
   font-size: 15px;
-
+  padding-bottom: 3px;
 }
 
 
 .menu-accompagnement {
   margin: 0;
   font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+
 }
+
 
 .menu-prix {
   margin: 0;
   font-weight: bold;
-  display: flex;
-justify-content: flex-end;
 color: #353535;
 font-size: 13px;
 padding-right: 10px;
+justify-content: flex-end;
+display: flex;
 
 }
 
