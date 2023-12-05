@@ -51,32 +51,44 @@
                   margin-bottom: 14px;
                   padding: 0px;
                   width: 100%;
+                  gap: 0;
 
-                  .cards-menu-content {
-                      padding: 12px;
+            
+
+                      .card-menu-texte {
+                          white-space: nowrap;
+                          overflow: hidden;
+padding: 12px;
                       width: 100%;
-                      gap: 5px;
-                      align-items: flex-end;
+                        gap: 5px;
+                        align-items: flex-end;
 
-                      h3 {
-                          margin: 0;
-                          font-size: 15px;
-                          padding-bottom: 3px;
-                      }
+                          h3 {
+                              margin: 0;
+                              font-size: 15px;
+                              padding-bottom: 3px;
 
 
-                      .menu-accompagnement {
-                          margin: 0;
-                          font-size: 13px;
-                      }
+                          }
 
-                      .menu-prix {
-                          margin: 0;
-                          font-weight: bold;
-                          color: #353535;
-                          font-size: 13px;
-                          justify-content: flex-end;
-                          display: flex;
+
+                          .menu-accompagnement {
+                              margin: 0;
+                              font-size: 13px;
+
+
+                          }
+
+                          .menu-prix {
+                              margin: 0;
+                              font-weight: bold;
+                              color: #353535;
+                              font-size: 13px;
+                              display: flex;
+                              justify-content: center;
+
+
+                          }
                       }
 
                   }
@@ -134,4 +146,4 @@
 
 
 
-  }
+  
