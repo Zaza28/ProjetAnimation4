@@ -353,17 +353,17 @@ body {
   position: relative;
   width: 30px;
 }
-.animation-coeur .animation-coeur .fa-regular {
+.animation-coeur .fa-regular {
   position: absolute;
   left: 16px;
   opacity: 1;
   transition: 0s 180s;
 }
-.animation-coeur .animation-coeur .fa-regular :hover .fa-regular {
+.animation-coeur :hover .fa-regular {
   opacity: 0;
   transition: 0s;
 }
-.animation-coeur .animation-coeur .fa {
+.animation-coeur  .fa {
   position: absolute;
   left: 16px;
   opacity: 0;
@@ -373,7 +373,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.animation-coeur .animation-coeur .fa :hover .fa {
+.animation-coeur :hover .fa {
   opacity: 1;
   transition: 0s;
 }
