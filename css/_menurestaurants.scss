@@ -53,75 +53,77 @@
                   width: 100%;
                   gap: 0;
 
-            
 
-                      .card-menu-texte {
-                          white-space: nowrap;
-                          overflow: hidden;
-padding: 12px;
+
+                  .cards-menu-content {
+                      white-space: nowrap;
+                      overflow: hidden;
+                      padding: 12px;
                       width: 100%;
-                        gap: 5px;
-                        align-items: flex-end;
+                      gap: 5px;
+                      align-items: flex-end;
 
-                          h3 {
-                              margin: 0;
-                              font-size: 15px;
-                              padding-bottom: 3px;
-
-
-                          }
+                      h3 {
+                          margin: 0;
+                          font-size: 15px;
+                          padding-bottom: 3px;
 
 
-                          .menu-accompagnement {
-                              margin: 0;
-                              font-size: 13px;
-
-
-                          }
-
-                          .menu-prix {
-                              margin: 0;
-                              font-weight: bold;
-                              color: #353535;
-                              font-size: 13px;
-                              display: flex;
-                              justify-content: center;
-
-
-                          }
                       }
 
+
+                      .menu-accompagnement {
+                          margin: 0;
+                          font-size: 13px;
+
+
+                      }
+
+                      .menu-prix {
+                          margin: 0;
+                          font-weight: bold;
+                          color: #353535;
+                          font-size: 13px;
+                          display: flex;
+                          justify-content: center;
+
+
+                      }
+                  }
+
+                  .button-check {
+                      display: flex;
+                      flex-direction: row;
+                      width: 0;
+                      overflow: hidden;
+                      transition: width 3s;
+                      background-color: #99E2D0;
+                      color: white;
+                      justify-content: center;
+                      padding-top: 30px;
+                      border-radius: 0px 15px 15px 0px;
+
+                      .fa-circle-check {
+                          border: none;
+                          border-radius: 0px 15px 15px 0px;
+                          display: flex;
+                          flex-direction: row;
+                          width: 15px;
+
+                      }
                   }
 
 
+
+
+
+
+
               }
-          }
-      }
 
-      .button-check {
-          display: flex;
-          flex-direction: row;
-          width: 0;
-          overflow: hidden;
-          transition: width 3s;
-          background-color: #99E2D0;
-          color: white;
-          justify-content: center;
-          padding-top: 30px;
-          border-radius: 0px 15px 15px 0px;
-
-          .fa-circle-check {
-              border: none;
-              border-radius: 0px 15px 15px 0px;
-              display: flex;
-              flex-direction: row;
-              width: 15px;
 
           }
       }
-
-
-
 
       .button-de-menu {
           background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
@@ -146,4 +148,4 @@ padding: 12px;
 
 
 
-  
+  }
