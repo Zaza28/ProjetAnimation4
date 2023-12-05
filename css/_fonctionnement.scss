@@ -31,6 +31,10 @@
       text-decoration: none;
       position: relative;
 
+      :hover .fa-solid {
+        color: var(--Primary, #9356DC);
+      }
+
       .numero-fonctionnement {
         background: #9356DC;
         padding: 10px 13px;
@@ -47,12 +51,14 @@
           color: var(--grey-tint-4, #7E7E7E);
           margin-left: 0;
           width: 35px;
+
+
+
+
         }
       }
 
-      .button-de-fonctionnement:hover .fa-solid {
-        color: var(--Primary, #9356DC);
-      }
+
 
     }
 
