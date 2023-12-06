@@ -1,3 +1,4 @@
+/******animation coeur******/
 
 .animation-coeur {
     display: flex;
@@ -7,39 +8,42 @@
     width: 30px;
 
 
-       .animation-coeur .fa-regular {
+        .fa-regular {
         position: absolute;
         left: 16px;
         opacity: 1;
-        transition: 0s 180s;
+        transition: all 2s ease;
 
-        :hover{
-            opacity: 0;
-            transition: 0s;
-        }
+       
 
 
 
     }
+        &:hover .fa-regular{
+            opacity: 0;
+        }
 
-     .animation-coeur  .fa {
+
+
+       .fa {
         position: absolute;
         left: 16px;
         opacity: 0;
-        transition: 0s 180s;
+        transition: all 2s ease;
         background: -webkit-linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
-        :hover{
-            opacity: 1;
-            transition: 0s;
-        }
+       
 
     }
 
-}
+    &:hover .fa{
+        opacity: 1;
+    }
 
+
+}
 
 

@@ -1,34 +1,3 @@
-/* ecrire le mobile css ici */
-
-/**********BODY*********/
-
-body {
-  margin: 0;
-}
-
-.main-container {
-  margin: 0;
-}
-
-.fa-brands,
-.fa-classic,
-.fa-regular,
-.fa-sharp,
-.fa-solid,
-.fab,
-.far,
-.fas {
-  display: inline-flex;
-}
-
-* {
-  font-family: Roboto, sans-serif;
-}
-
-
-/************header**********/
-
-
 .header {
   display: flex;
   flex-direction: column;
@@ -60,23 +29,6 @@ body {
   padding: 12px 0px 12px 0px;
   text-align: center;
 }
-
-.header-pages-restaurants {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 25px;
-  padding-right: 5px;
-  margin: 0;
-}
-
-.image-restaurant-menu {
-  width: 100%;
-  height: 230px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-/************hero**********/
 
 .hero {
   background: var(--Background, #F6F6F6);
@@ -117,8 +69,34 @@ body {
   text-decoration: none;
 }
 
+/* ecrire le mobile css ici */
+/**********BODY*********/
+body {
+  margin: 0;
+}
 
-/************fonctionnement**********/
+.main-container {
+  margin: 0;
+}
+
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+  display: inline-flex;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more than 767.98px) */
+/* larger devices (desktop, more than 1024px) */
 
 .fonctionnement {
   padding: 35px 20px 35px;
@@ -147,6 +125,9 @@ body {
   text-decoration: none;
   position: relative;
 }
+.fonctionnement .fonctionnement-bouton .button-de-fonctionnement :hover .fa-solid {
+  color: var(--Primary, #9356DC);
+}
 .fonctionnement .fonctionnement-bouton .button-de-fonctionnement .numero-fonctionnement {
   background: #9356DC;
   padding: 10px 13px;
@@ -164,13 +145,6 @@ body {
   margin-left: 0;
   width: 35px;
 }
-.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .button-de-fonctionnement:hover .fa-solid {
-  color: var(--Primary, #9356DC);
-}
-
-
-/************restaurants**********/
-
 
 .restaurants {
   background-color: #F6F6F6;
@@ -235,7 +209,22 @@ body {
   font-size: 14px;
   margin: 0;
 }
-/************page restaurants**********/
+
+.image-introduction-restaurant .image-restaurant-menu {
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-presentation-du-menu .header-pages-restaurants {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-right: 5px;
+  margin: 0;
+}
 
 .section-presentation-du-menu {
   border-radius: 25px 25px 0px 0px;
@@ -282,7 +271,7 @@ body {
   width: 100%;
   gap: 0;
 }
-.section-presentation-du-menu .menu .menu-listes .menu-cards .card-menu-texte {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content {
   white-space: nowrap;
   overflow: hidden;
   padding: 12px;
@@ -290,16 +279,16 @@ body {
   gap: 5px;
   align-items: flex-end;
 }
-.section-presentation-du-menu .menu .menu-listes .menu-cards .card-menu-texte h3 {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content h3 {
   margin: 0;
   font-size: 15px;
   padding-bottom: 3px;
 }
-.section-presentation-du-menu .menu .menu-listes .menu-cards .card-menu-texte .menu-accompagnement {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content .menu-accompagnement {
   margin: 0;
   font-size: 13px;
 }
-.section-presentation-du-menu .menu .menu-listes .menu-cards .card-menu-texte .menu-prix {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content .menu-prix {
   margin: 0;
   font-weight: bold;
   color: #353535;
@@ -307,9 +296,7 @@ body {
   display: flex;
   justify-content: center;
 }
-/************page restaurants hover check**********/
-
-.button-check {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .button-check {
   display: flex;
   flex-direction: row;
   width: 0;
@@ -321,15 +308,14 @@ body {
   padding-top: 30px;
   border-radius: 0px 15px 15px 0px;
 }
-.button-check .fa-circle-check {
+.section-presentation-du-menu .menu .menu-listes .menu-cards .button-check .fa-circle-check {
   border: none;
   border-radius: 0px 15px 15px 0px;
   display: flex;
   flex-direction: row;
   width: 15px;
 }
-
-.button-de-menu {
+.section-presentation-du-menu .button-de-menu {
   background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -341,11 +327,11 @@ body {
   margin: 15px 70px 30px 70px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
 }
-.button-de-menu :hover {
+.section-presentation-du-menu .button-de-menu :hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
 }
 
-/**********animation coeur *********/
+/******animation coeur******/
 .animation-coeur {
   display: flex;
   flex-direction: row;
@@ -357,28 +343,24 @@ body {
   position: absolute;
   left: 16px;
   opacity: 1;
-  transition: 0s 180s;
+  transition: all 2s ease;
 }
-.animation-coeur :hover .fa-regular {
+.animation-coeur:hover .fa-regular {
   opacity: 0;
-  transition: 0s;
 }
-.animation-coeur  .fa {
+.animation-coeur .fa {
   position: absolute;
   left: 16px;
   opacity: 0;
-  transition: 0s 180s;
+  transition: all 2s ease;
   background: -webkit-linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.animation-coeur :hover .fa {
+.animation-coeur:hover .fa {
   opacity: 1;
-  transition: 0s;
 }
-
-/************footer**********/
 
 .footer {
   background: var(--Grey, #353535);
