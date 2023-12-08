@@ -125,7 +125,7 @@ body {
   text-decoration: none;
   position: relative;
 }
-.fonctionnement .fonctionnement-bouton .button-de-fonctionnement :hover .fa-solid {
+.fonctionnement .fonctionnement-bouton .button-de-fonctionnement:hover .fa-solid {
   color: var(--Primary, #9356DC);
 }
 .fonctionnement .fonctionnement-bouton .button-de-fonctionnement .numero-fonctionnement {
@@ -137,9 +137,9 @@ body {
   top: 15px;
   border-radius: 50px;
 }
-.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .numero-fonctionnement .fa-mobile-screen-button,
-.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .numero-fonctionnement .fa-list-ul,
-.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .numero-fonctionnement .fa-store {
+.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-mobile-screen-button,
+.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-list-ul,
+.fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-store {
   display: inline-flex;
   color: var(--grey-tint-4, #7E7E7E);
   margin-left: 0;
@@ -217,15 +217,6 @@ body {
      object-fit: cover;
 }
 
-.section-presentation-du-menu .header-pages-restaurants {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 25px;
-  padding-right: 5px;
-  margin: 0;
-}
-
 .section-presentation-du-menu {
   border-radius: 25px 25px 0px 0px;
   background-color: #F6F6F6;
@@ -235,6 +226,14 @@ body {
   top: -40px;
   position: relative;
   padding: 11px;
+}
+.section-presentation-du-menu .header-pages-restaurants {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-right: 5px;
+  margin: 0;
 }
 .section-presentation-du-menu .restaurant-titre-menu {
   margin: 0;
@@ -249,7 +248,7 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.section-presentation-du-menu .menu hr {
+.section-presentation-du-menu .menu .titres-menu hr {
   width: 13%;
   margin: 0;
   background-color: #99E2D0;
@@ -274,7 +273,7 @@ body {
 .section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content {
   white-space: nowrap;
   overflow: hidden;
-  padding: 12px;
+  padding: 13px;
   width: 100%;
   gap: 5px;
   align-items: flex-end;
@@ -288,13 +287,14 @@ body {
   margin: 0;
   font-size: 13px;
 }
-.section-presentation-du-menu .menu .menu-listes .menu-cards .cards-menu-content .menu-prix {
-  margin: 0;
+.section-presentation-du-menu .menu .menu-listes .menu-cards .menu-prix {
+  margin-right: 15px;
+  margin-bottom: 11px;
   font-weight: bold;
   color: #353535;
   font-size: 13px;
   display: flex;
-  justify-content: center;
+  align-items: end;
 }
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check {
   display: flex;
@@ -327,7 +327,7 @@ body {
   margin: 15px 70px 30px 70px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
 }
-.section-presentation-du-menu .button-de-menu :hover {
+.section-presentation-du-menu .button-de-menu:hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
 }
 
