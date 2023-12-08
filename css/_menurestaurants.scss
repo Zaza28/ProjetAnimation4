@@ -69,24 +69,29 @@
                  background-color: white;
                  box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
                  margin-bottom: 14px;
-                 padding: 0px;
                  width: 100%;
                  gap: 0;
 
 
 
                  .cards-menu-content {
+                    display: flex;
+                    flex-direction: column;
                      white-space: nowrap;
                      overflow: hidden;
-                     padding: 13px;
+                     padding: 15px;
                      width: 100%;
                      gap: 5px;
-                     align-items: flex-end;
+                    
+
+                     
 
                      h3 {
                          margin: 0;
                          font-size: 15px;
-                         padding-bottom: 3px;
+                         overflow: hidden;
+                        text-overflow: ellipsis;
+                        
 
 
                      }
@@ -94,7 +99,9 @@
 
                      .menu-accompagnement {
                          margin: 0;
-                         font-size: 13px;
+                         font-size: 12.4px;
+                         overflow: hidden;
+                        text-overflow: ellipsis;
 
 
                      }
@@ -103,8 +110,8 @@
                  }
 
                  .menu-prix {
-                     margin-right: 15px;
-                     margin-bottom: 11px;
+                     margin-right: 10px;
+                     margin-bottom: 14px;
                      font-weight: bold;
                      color: #353535;
                      font-size: 13px;
@@ -117,9 +124,9 @@
                  .button-check {
                      display: flex;
                      flex-direction: row;
-                     width: 25%;
+                     width: 28%;
                      overflow: hidden;
-                     transition: width 3s;
+                     transition: width 1s;
                      background-color: #99E2D0;
                      color: white;
                      justify-content: center;
@@ -128,14 +135,11 @@
 
                      .fa-circle-check {
                          border: none;
-                         border-radius: 0px 15px 15px 0px;
+                         overflow: hidden;
                          display: flex;
                          width: 15px;
                          justify-content: center;
-                         overflow: hidden;
                         
-                         
-
                          
                      }
 
