@@ -299,21 +299,26 @@ body {
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check {
   display: flex;
   flex-direction: row;
-  width: 0;
+  width: 25%;
   overflow: hidden;
   transition: width 3s;
   background-color: #99E2D0;
   color: white;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 25px;
   border-radius: 0px 15px 15px 0px;
 }
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check .fa-circle-check {
   border: none;
   border-radius: 0px 15px 15px 0px;
   display: flex;
-  flex-direction: row;
   width: 15px;
+  justify-content: center;
+  overflow: hidden;
+}
+.section-presentation-du-menu .menu .menu-listes .menu-cards .button-check:hover {
+  overflow: visible;
+  width: 0;
 }
 .section-presentation-du-menu .button-de-menu {
   background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
