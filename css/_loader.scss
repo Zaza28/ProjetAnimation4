@@ -1,3 +1,5 @@
+body{
+
 .loader {
     background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
     background-size: 300%;
@@ -7,6 +9,7 @@
     animation: animated_text 4s ease-in-out infinite;
     -moz-animation: animated_text 4s ease-in-out infinite;
     -webkit-animation: animated_text 4s ease-in-out infinite;
+    
 }
 
 
@@ -32,4 +35,5 @@
     100% {
         background-position: 0px 50%;
     }
+}
 }

@@ -2,10 +2,21 @@
   display: flex;
   flex-direction: column;
 
+
+   .fa-arrow-left{
+position: absolute;
+padding-top: 25px;
+padding-left: 19px;
+color: #353535;
+
+
+ }
+
+
   .header-logo {
-    width: 200px;
-    padding: 19px;
-    padding: 14px 15px 13px 15px;
+    width: 170px;
+    padding: 22px;
+    padding: 19px 15px 15px 15px;
     align-self: center;
   }
 
