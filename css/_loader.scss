@@ -1,0 +1,35 @@
+.loader {
+    background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animated_text 4s ease-in-out infinite;
+    -moz-animation: animated_text 4s ease-in-out infinite;
+    -webkit-animation: animated_text 4s ease-in-out infinite;
+}
+
+
+.loader-accueil{
+    display: flex;
+    margin-top: 200px;
+    padding: 50px;
+    font-size: 100px;
+    justify-content: center;
+    font-family: Shrikhand, sans-serif;
+}
+
+
+@keyframes animated_text {
+    0% {
+        background-position: 0px 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0px 50%;
+    }
+}
