@@ -124,8 +124,9 @@
                  .button-check {
                      display: flex;
                      flex-direction: row;
-                     width: 28%;
-                     transition:  width 1s ease;
+                     width: 0%;
+                     
+                     transition: all  width 2s;
                      background-color: #99E2D0;
                      color: white;
                      justify-content: center;
@@ -135,7 +136,6 @@
 
                      .fa-circle-check {
                          border: none;
-                         overflow: hidden;
                          display: flex;
                          width: 15px;
                          justify-content: center;
@@ -144,7 +144,7 @@
                      }
 
                         &:hover {
-                         width: 0;
+                         width: 32%;
 
 
                     }
