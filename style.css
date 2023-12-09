@@ -268,6 +268,7 @@ body {
 .section-presentation-du-menu .menu .menu-listes .menu-cards {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
@@ -318,7 +319,6 @@ body {
 }
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check .fa-circle-check {
   border: none;
-  width: 15px;
   justify-content: center;
 }
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check:hover {
