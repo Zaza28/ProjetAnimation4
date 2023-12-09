@@ -69,7 +69,7 @@
   border: solid 0px;
   margin-bottom: 30px;
 }
-.hero .button-hero :hover {
+.hero .button-hero:hover {
   background: #b272f2;
   background-image: linear-gradient(to bottom, #b272f2, #d184bc);
   text-decoration: none;
