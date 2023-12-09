@@ -309,7 +309,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 0%;
-  transition: all width 2s;
+  transition: width 2s ease;
   background-color: #99E2D0;
   color: white;
   justify-content: center;
@@ -318,7 +318,6 @@ body {
 }
 .section-presentation-du-menu .menu .menu-listes .menu-cards .button-check .fa-circle-check {
   border: none;
-  display: flex;
   width: 15px;
   justify-content: center;
 }
