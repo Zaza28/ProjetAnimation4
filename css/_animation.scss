@@ -59,21 +59,25 @@ transition: transform 2s ease-in;
 
 }
 
-
-
 .menu:hover .menu-listes{
-animation: left-to-right 2s ease-in alternate-reverse;
+animation: left-to-right 2s ease-in alternate;
 }
 
 @keyframes left-to-right{
+
 0%{
-    transform: translateX(0);
+    transform: translateX(-50%);
+
 }
+
 
 
 100%{
-    transform: translateX(100%);
+
+    transform: translateX(0%);
 
 }
+
+
 
 }
