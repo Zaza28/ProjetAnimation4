@@ -371,6 +371,23 @@ body {
   opacity: 1;
 }
 
+/*********ANIMATION CARDS MENUS**************/
+.menu .menu-listes {
+  transition: transform 2s ease-in;
+}
+
+.menu:hover .menu-listes {
+  animation: left-to-right 2s ease-in alternate-reverse;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 .footer {
   background: var(--Grey, #353535);
   padding: 22px 25px;
