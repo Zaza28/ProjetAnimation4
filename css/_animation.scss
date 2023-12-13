@@ -51,22 +51,29 @@
 
 .menu{
 
-.menu-listes{
+// .delay1{
+//     animation: left-to-right 2s  ease-in alternate;
+//     animation-delay: 500ms;   
+// }
 
-transition: transform 2s ease-in;
+// .delay2{
+
+// }
+
+// .delay3{
+
+    
+// }
+
+
 
 }
 
-}
-
-.menu:hover .menu-listes{
-animation: left-to-right 2s ease-in alternate;
-}
 
 @keyframes left-to-right{
 
 0%{
-    transform: translateX(-50%);
+    transform: translateY(100px);
 
 }
 
@@ -74,7 +81,7 @@ animation: left-to-right 2s ease-in alternate;
 
 100%{
 
-    transform: translateX(0%);
+    transform: translateY(0px);
 
 }
 

@@ -1,30 +1,36 @@
-body {
-    animation: monanimation ;
-    visibility: hidden;
-}
-
-@keyframes monanimation {
-
-from{
-
-}
-to{
-
-}
-
-    }
-
 
 .loader {
 
-    background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
+   
+    position: fixed;
+    background: white;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+animation: fade 3s ease forwards;
+
+
+    .loader-accueil{
+
+     background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
     background-size: 300%;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: animated_text 5s ease-in ;
-    position: fixed;
-    visibility: visible;
+    animation: animated_text 3s ease-in forwards;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: Shrikhand, sans-serif;
+    margin: 240px 100px 100px 0px;
+
+    }
 }
 
 
@@ -39,35 +45,23 @@ to{
 
     100% {
         background-position: 0px 50%;
-       visibility: hidden;
        
     }
 }
 
-.loader-accueil {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-size: 50px;
-    font-family: Shrikhand, sans-serif;
-    margin: 240px 100px 100px 0px;
-    animation: fade 5s ease-in;
-    visibility: visible;
-  
-}
 
 
 
 @keyframes fade {
 
     from {
-visibility: visible;
+opacity: 1;
     }
 
     to {
-   visibility: hidden;
+
+opacity: 0;
+z-index: -1;
     }
 
 
