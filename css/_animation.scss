@@ -1,4 +1,4 @@
-/******animation coeur******/
+/**************animation coeur*************/
 
 .animation-coeur {
     display: flex;
@@ -51,19 +51,23 @@
 
 .menu{
 
-// .delay1{
-//     animation: left-to-right 2s  ease-in alternate;
-//     animation-delay: 500ms;   
-// }
+.delay1{
+    animation: left-to-right 3s  ease-in-out alternate;
+    animation-delay: 500ms;   
+}
 
-// .delay2{
+.delay2{
+    animation: left-to-right 3s  ease-in-out alternate;
+    animation-delay: 1s; 
 
-// }
+}
 
-// .delay3{
+.delay3{
 
+    animation: left-to-right 3s  ease-in-out alternate;
+    animation-delay: 2s; 
     
-// }
+}
 
 
 
