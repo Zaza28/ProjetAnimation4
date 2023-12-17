@@ -3,19 +3,18 @@
   flex-direction: column;
 
 
-   .fa-arrow-left{
-position: absolute;
-padding-top: 25px;
-padding-left: 19px;
-color: #353535;
+  .fa-arrow-left {
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 19px;
+    color: #353535;
 
 
- }
+  }
 
 
   .header-logo {
     width: 170px;
-    padding: 22px;
     padding: 19px 15px 15px 15px;
     align-self: center;
   }
@@ -49,4 +48,46 @@ color: #353535;
 }
 
 
+/****** Media queries ***********/
+/* Medium devices (tablets, more than 767.98px) */
+@media (min-width: 767.98px) {}
 
+
+/* larger devices (desktop, more than 1024px) */
+@media (min-width: 1024px) {
+  .header {
+
+    .header-logo {
+      width: 250px;
+      padding: 25px 15px 25px 15px;
+
+    }
+
+    .header-recherche {
+      padding: 7px;
+
+
+      .fa-location-dot {
+        margin-right: -30px;
+        z-index: 1;
+      }
+
+
+      input {
+
+        color: #101010;
+        font-size: 21px;
+      }
+
+
+    }
+
+
+
+
+  }
+
+
+
+
+}

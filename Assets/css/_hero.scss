@@ -51,7 +51,33 @@
   }
   
 
-  
+  /****** Media queries ***********/
+/* Medium devices (tablets, more than 767.98px) */
+@media (min-width: 767.98px) {
+
+}
+
+
+/* larger devices (desktop, more than 1024px) */
+@media (min-width: 1024px){
+
+  .hero{
+
+    .titre-hero{
+
+      font-size: 45px;
+      font-weight: bolder;
+    }
+    .paragraphe-hero{
+      font-size: 20px;
+    }
+   
+
+
+
+
+  }
+}
  
  
   

@@ -68,3 +68,51 @@
   }
 
 }
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more than 767.98px) */
+@media (min-width: 767.98px) {
+
+}
+
+
+/* larger devices (desktop, more than 1024px) */
+@media (min-width: 1024px) {
+.fonctionnement{
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 50px;
+gap: 25px;
+
+.fonctionnement-section-title{
+display: flex;
+font-size: 28px;
+padding:  10px 0px;
+justify-content: space-between;
+
+
+}
+
+.fonctionnement-bouton{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ width: 100%;
+justify-content: flex-start;
+
+.button-de-fonctionnement{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+}
+
+
+}
+
+
+
+}
