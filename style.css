@@ -40,11 +40,11 @@
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .header .header-logo {
-    width: 250px;
+    width: 230px;
     padding: 25px 15px 25px 15px;
   }
   .header .header-recherche {
-    padding: 7px;
+    display: flex;
   }
   .header .header-recherche .fa-location-dot {
     margin-right: -30px;
@@ -52,7 +52,7 @@
   }
   .header .header-recherche input {
     color: #101010;
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 .hero {
@@ -98,12 +98,21 @@
 /* Medium devices (tablets, more than 767.98px) */
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
+  .hero {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
   .hero .titre-hero {
-    font-size: 45px;
-    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
   }
   .hero .paragraphe-hero {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: lighter;
   }
 }
 /* ecrire le mobile css ici */
@@ -193,26 +202,36 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 50px 110px;
     gap: 25px;
   }
   .fonctionnement .fonctionnement-section-title {
     display: flex;
-    font-size: 28px;
-    padding: 10px 0px;
-    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: -10px;
+    align-items: flex-start;
+    padding-bottom: 0;
   }
   .fonctionnement .fonctionnement-bouton {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
   }
   .fonctionnement .fonctionnement-bouton .button-de-fonctionnement {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+    border-radius: 15px;
+  }
+  .fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-mobile-screen-button,
+  .fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-list-ul,
+  .fonctionnement .fonctionnement-bouton .button-de-fonctionnement .fa-store {
+    width: 25px;
+    margin-left: -10px;
   }
 }
 .restaurants {
@@ -282,6 +301,28 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, more than 767.98px) */
 /* larger devices (desktop, more than 1024px) */
+@media (min-width: 1024px) {
+  .restaurants {
+    padding: 20px 90px 50px 90px;
+  }
+  .restaurants .restaurant-section-title {
+    padding: 35px 0px 15px 10px;
+  }
+  .restaurants .restaurants-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    display: flex;
+  }
+  .restaurants .restaurants-cards .cards {
+    width: 46%;
+    position: relative;
+  }
+  .restaurants .restaurants-cards .cards .button-nouveau {
+    position: absolute;
+  }
+}
 .image-introduction-restaurant .image-restaurant-menu {
   width: 100%;
   height: 230px;
@@ -502,6 +543,18 @@ body {
   padding-right: 25px;
 }
 
+/****** Media queries ***********/
+/* Medium devices (tablets, more than 767.98px) */
+/* larger devices (desktop, more than 1024px) */
+@media (min-width: 1024px) {
+  .footer .footer-informations {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .footer .footer-informations .footer-listes {
+    flex-direction: row;
+  }
+}
 /* ecrire le mobile css ici */
 /****** Media queries ***********/
 /* Medium devices (tablets, more than 767.98px) */
