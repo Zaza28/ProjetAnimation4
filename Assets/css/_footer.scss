@@ -68,27 +68,42 @@
 
 
 /* larger devices (desktop, more than 1024px) */
-@media (min-width: 1024px){
-    
-.footer{
+@media (min-width: 1024px) {
+
+    .footer {
+        align-items: end;
+        justify-content: flex-end;
 
 
-    .footer-informations{
-        display: flex;
-        flex-direction: row-reverse;
+        .footer-informations {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 50px;
 
-// .footer-title{
+            .footer-title {
+                display: flex;
+                padding-top: 12px;
+                font-size: small;
+            }
 
-// }
+            .footer-listes {
+                flex-direction: row;
 
-.footer-listes{
-flex-direction: row;
+                .footer-li-responsive {
+                   display: flex;
+                   padding-left: 22px;
 
-}
 
 
+                }
+
+
+
+            }
+
+
+        }
     }
-}
 
 
 }

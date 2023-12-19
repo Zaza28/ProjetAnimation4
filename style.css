@@ -547,12 +547,26 @@ body {
 /* Medium devices (tablets, more than 767.98px) */
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
+  .footer {
+    align-items: end;
+    justify-content: flex-end;
+  }
   .footer .footer-informations {
     display: flex;
     flex-direction: row-reverse;
+    gap: 50px;
+  }
+  .footer .footer-informations .footer-title {
+    display: flex;
+    padding-top: 12px;
+    font-size: small;
   }
   .footer .footer-informations .footer-listes {
     flex-direction: row;
+  }
+  .footer .footer-informations .footer-listes .footer-li-responsive {
+    display: flex;
+    padding-left: 22px;
   }
 }
 /* ecrire le mobile css ici */
