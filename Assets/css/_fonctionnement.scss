@@ -72,7 +72,64 @@
 
 /****** Media queries ***********/
 /* Medium devices (tablets, more than 767.98px) */
-@media (min-width: 767.98px) {}
+@media (min-width: 767.98px) {
+  .fonctionnement {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 110px;
+    gap: 25px;
+
+    .fonctionnement-section-title {
+      display: flex;
+      font-size: 22px;
+      font-weight: bolder;
+      margin-left: -10px;
+      align-items: flex-start;
+     padding-bottom: 0;
+
+    }
+
+    .fonctionnement-bouton {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      align-items: center;
+      gap: 35px;
+
+
+      .button-de-fonctionnement {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        border-radius: 10px;
+        gap: 5px;
+
+
+        .fa-mobile-screen-button,
+        .fa-list-ul,
+        .fa-store {
+          width: 25px;
+          margin-left: -10px;
+          padding-top: 10px;
+        }
+
+
+
+      }
+
+    }
+
+
+  }
+
+
+
+}
+
+
 
 
 /* larger devices (desktop, more than 1024px) */
@@ -116,6 +173,7 @@
         .fa-store {
           width: 25px;
           margin-left: -10px;
+          padding-top: 0;
         }
 
 

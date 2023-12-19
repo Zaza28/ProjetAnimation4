@@ -85,7 +85,44 @@
 
 /****** Media queries ***********/
 /* Medium devices (tablets, more than 767.98px) */
-@media (min-width: 767.98px) {}
+@media (min-width: 767.98px) {
+
+
+    .restaurants {
+        padding: 20px 10px 50px 10px;
+
+        .restaurant-section-title{
+            padding: 35px 0px 15px 10px;
+        }
+
+        .restaurants-cards {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            display: flex;
+
+            .cards {
+                width: 46%;
+                position: relative;
+              
+                .button-nouveau {
+                    position: absolute;
+
+                }
+            }
+
+
+
+
+        }
+
+    }
+
+
+
+
+}
 
 
 /* larger devices (desktop, more than 1024px) */
@@ -106,12 +143,9 @@
             display: flex;
 
             .cards {
-
                 width: 46%;
                 position: relative;
               
-
-
                 .button-nouveau {
                     position: absolute;
 
