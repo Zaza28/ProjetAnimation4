@@ -1,6 +1,4 @@
 .loader {
-
-
     position: fixed;
     background: white;
     z-index: 1;
@@ -12,7 +10,7 @@
 
 
     .loader-accueil {
-
+        text-align: center;
         background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
         background-size: 300%;
         background-clip: text;
@@ -74,8 +72,7 @@
 
 
         .loader-accueil {
-            margin-top: 200px;
-            margin-left: 220px;
+            // margin-top: 200px;
             font-size: 80px;
 
         }
@@ -96,8 +93,6 @@
 
 
         .loader-accueil {
-            margin-top: 200px;
-            margin-left: 220px;
             font-size: 100px;
 
         }

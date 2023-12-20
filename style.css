@@ -705,6 +705,7 @@ body {
   animation: fade 5s ease forwards 3s;
 }
 .loader .loader-accueil {
+  text-align: center;
   background: linear-gradient(-45deg, #008766, #008766, #89C8FA, #89C8FA, orange, orange, #9356DC, #9356DC, #FF79DA, #FF79DA);
   background-size: 300%;
   background-clip: text;
@@ -742,16 +743,12 @@ body {
 /* Medium devices (tablets, more than 767.98px) */
 @media (min-width: 767.98px) {
   .loader .loader-accueil {
-    margin-top: 200px;
-    margin-left: 220px;
     font-size: 80px;
   }
 }
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .loader .loader-accueil {
-    margin-top: 200px;
-    margin-left: 220px;
     font-size: 100px;
   }
 }
