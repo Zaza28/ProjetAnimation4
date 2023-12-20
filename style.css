@@ -742,15 +742,15 @@ body {
 /* Medium devices (tablets, more than 767.98px) */
 @media (min-width: 767.98px) {
   .loader .loader-accueil {
-    margin-top: 500px;
-    margin-left: 140px;
+    margin-top: 200px;
+    margin-left: 220px;
     font-size: 80px;
   }
 }
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .loader .loader-accueil {
-    margin-top: 500px;
+    margin-top: 200px;
     margin-left: 220px;
     font-size: 100px;
   }
