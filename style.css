@@ -135,7 +135,6 @@
   }
   .hero .paragraphe-hero {
     font-size: 18px;
-    font-weight: light;
     color: #353535;
   }
 }
@@ -340,7 +339,7 @@ body {
   margin-top: 18px;
   font-weight: 600;
 }
-.restaurants .restaurants-cards .cards .button-nouveau :hover {
+.restaurants .restaurants-cards .cards .button-nouveau:hover {
   text-decoration: none;
 }
 .restaurants .restaurants-cards .cards .cards-restaurant-content {
@@ -448,11 +447,13 @@ body {
   margin: 0;
   font-size: 17px;
 }
-.section-presentation-du-menu .menu .titres-menu hr {
-  width: 13%;
+.section-presentation-du-menu .menu hr {
+  width: 12.5%;
   margin: 0;
+  margin-bottom: 8px;
+  margin-top: -8px;
   background-color: #99E2D0;
-  height: 2.5px;
+  height: 2.2px;
   border: none;
 }
 .section-presentation-du-menu .menu .menu-listes {
@@ -527,8 +528,9 @@ body {
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   border: solid 0px;
-  margin: 15px 70px 30px 70px;
+  margin: 15px 70px 30px 60px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  width: 55%;
 }
 .section-presentation-du-menu .button-de-menu:hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -546,12 +548,12 @@ body {
   .section-presentation-du-menu .header-pages-restaurants {
     justify-content: center;
   }
-  .section-presentation-du-menu .menu .titres-menu hr {
+  .section-presentation-du-menu .menu hr {
     width: 8%;
   }
   .section-presentation-du-menu .button-de-menu {
-    width: 35%;
-    margin: 15px 70px 30px 140px;
+    width: 30%;
+    margin: 15px 70px 30px 180px;
   }
 }
 /* larger devices (desktop, more than 1024px) */
@@ -566,12 +568,12 @@ body {
   .section-presentation-du-menu .header-pages-restaurants {
     justify-content: center;
   }
-  .section-presentation-du-menu .menu .titres-menu hr {
+  .section-presentation-du-menu .menu hr {
     width: 8%;
   }
   .section-presentation-du-menu .button-de-menu {
     width: 35%;
-    margin: 15px 70px 30px 140px;
+    margin: 15px 70px 30px 150px;
   }
 }
 /**************animation coeur*************/
@@ -713,7 +715,6 @@ body {
   color: transparent;
   animation: animated_text 5s ease forwards;
   width: 100%;
-  padding: 20px;
   margin-top: 240px;
   font-size: 50px;
   font-family: Shrikhand, sans-serif;
@@ -743,12 +744,14 @@ body {
 /* Medium devices (tablets, more than 767.98px) */
 @media (min-width: 767.98px) {
   .loader .loader-accueil {
+    margin-top: 440px;
     font-size: 80px;
   }
 }
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .loader .loader-accueil {
+    margin-top: 440px;
     font-size: 100px;
   }
 }
