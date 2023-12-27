@@ -39,7 +39,7 @@
 /* Medium devices (tablets, more than 767.98px) */
 @media (min-width: 767.98px) {
   .header .fa-arrow-left {
-    padding-top: 37px;
+    padding-top: 30px;
   }
   .header .header-logo {
     width: 200px;
@@ -60,7 +60,7 @@
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .header .fa-arrow-left {
-    padding-top: 37px;
+    padding-top: 30px;
   }
   .header .header-logo {
     width: 210px;
