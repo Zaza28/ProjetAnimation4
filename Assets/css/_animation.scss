@@ -50,22 +50,24 @@
 /*********ANIMATION CARDS MENUS**************/
 
 .menu{
-
 .delay1{
-    animation: left-to-right 3s  ease-in-out alternate;
-    animation-delay: 500ms;   
+    animation: left-to-right 3s  ease-in-out;
+    animation-delay: 100ms;  
+  
 }
 
 .delay2{
-    animation: left-to-right 3s  ease-in-out alternate;
-    animation-delay: 1s; 
+    animation: left-to-right 3s  ease-in-out;
+    animation-delay: 100ms; 
+   
 
 }
 
 .delay3{
 
-    animation: left-to-right 3s  ease-in-out alternate;
-    animation-delay: 2s; 
+    animation: left-to-right 3s  ease-in-out;
+    animation-delay: 100ms; 
+  
     
 }
 
@@ -77,7 +79,7 @@
 
 0%{
     transform: translateY(100px);
-
+opacity: 0;
 }
 
 
@@ -85,7 +87,7 @@
 100%{
 
     transform: translateY(0px);
-
+    opacity: 1;
 }
 
 

@@ -568,12 +568,15 @@ body {
   .section-presentation-du-menu .header-pages-restaurants {
     justify-content: center;
   }
+  .section-presentation-du-menu .menu {
+    padding: 50px;
+  }
   .section-presentation-du-menu .menu hr {
     width: 4%;
   }
   .section-presentation-du-menu .button-de-menu {
-    width: 30%;
-    margin: 15px 70px 30px 180px;
+    width: 20%;
+    margin: 15px 70px 30px 380px;
   }
 }
 /**************animation coeur*************/
@@ -609,24 +612,26 @@ body {
 
 /*********ANIMATION CARDS MENUS**************/
 .menu .delay1 {
-  animation: left-to-right 3s ease-in-out alternate;
-  animation-delay: 500ms;
+  animation: left-to-right 3s ease-in-out;
+  animation-delay: 100ms;
 }
 .menu .delay2 {
-  animation: left-to-right 3s ease-in-out alternate;
-  animation-delay: 1s;
+  animation: left-to-right 3s ease-in-out;
+  animation-delay: 100ms;
 }
 .menu .delay3 {
-  animation: left-to-right 3s ease-in-out alternate;
-  animation-delay: 2s;
+  animation: left-to-right 3s ease-in-out;
+  animation-delay: 100ms;
 }
 
 @keyframes left-to-right {
   0% {
     transform: translateY(100px);
+    opacity: 0;
   }
   100% {
     transform: translateY(0px);
+    opacity: 1;
   }
 }
 .footer {
