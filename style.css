@@ -553,14 +553,14 @@ body {
   }
   .section-presentation-du-menu .button-de-menu {
     width: 30%;
-    margin: 15px 70px 30px 180px;
+    margin: 15px 70px 30px 200px;
   }
 }
 /* larger devices (desktop, more than 1024px) */
 @media (min-width: 1024px) {
   .section-presentation-du-menu {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-left: 130px;
     padding-right: 130px;
     justify-content: center;
@@ -569,14 +569,15 @@ body {
     justify-content: center;
   }
   .section-presentation-du-menu .menu {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .section-presentation-du-menu .menu hr {
     width: 4%;
   }
   .section-presentation-du-menu .button-de-menu {
     width: 20%;
-    margin: 15px 70px 30px 380px;
+    margin: 15px 70px 30px 300px;
   }
 }
 /**************animation coeur*************/
@@ -613,15 +614,12 @@ body {
 /*********ANIMATION CARDS MENUS**************/
 .menu .delay1 {
   animation: left-to-right 3s ease-in-out;
-  animation-delay: 100ms;
 }
 .menu .delay2 {
   animation: left-to-right 3s ease-in-out;
-  animation-delay: 100ms;
 }
 .menu .delay3 {
   animation: left-to-right 3s ease-in-out;
-  animation-delay: 100ms;
 }
 
 @keyframes left-to-right {
